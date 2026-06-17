@@ -1,0 +1,101 @@
+body {
+  font-family: "Cinzel", serif;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+}
+.test-img {
+  position: relative;
+  display: inline-block;
+}
+.title {
+  font-size: 180px;
+  white-space: nowrap;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  font-style: bold;
+  color: black;
+  opacity: 0.7;
+   animation: hydroWave 6s ease-in-out infinite;
+  transform-origin: center;
+}
+
+
+@keyframes hydroWave {
+  0%,100% {
+    transform: skewX(0deg);
+  }
+
+  25% {
+    transform: skewX(3deg);
+  }
+
+  50% {
+    transform: skewX(0deg);
+  }
+
+  75% {
+    transform: skewX(-3deg);
+  }
+  0%, 100% {
+    text-shadow:
+      0 0 10px rgb(255, 0, 0),
+      0 0 20px rgb(253, 255, 107);
+  }
+
+  50% {
+    text-shadow:
+      0 0 20px rgb(255, 234, 0),
+      0 0 40px rgb(248, 255, 149);
+  }
+}
+
+.character-image {
+  display: flex;
+
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-image img {
+  max-width: auto;
+  height: 500px;
+}
+
+.character-info {
+  margin-top: 20px;
+}
+
+.character-image img {
+  height: 500px;
+
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+}
+.character-image img:nth-child(2) {
+  animation-delay: 1s;
+}
+.character-info a {
+  color: #d4af37;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+.character-info a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 15px #d4af37;
+}
