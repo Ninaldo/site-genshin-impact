@@ -47,7 +47,7 @@ const extraCharacters = [
   id: "kamisato-ayato",
   name: "Kamisato Ayato",
   vision: "Hydro",
-  weapon: "Sword",
+  weapon: "",
   nation: "Inazuma",
   rarity: 5,
   description: "Chef du clan Kamisato et commissaire de la Commission culturelle d'Inazuma."
@@ -56,7 +56,7 @@ const extraCharacters = [
   id: "yelan",
   name: "Yelan",
   vision: "Hydro",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Liyue",
   rarity: 5,
   description: "Une mystérieuse agente liée au Bureau des affaires civiles de Liyue."
@@ -74,7 +74,7 @@ const extraCharacters = [
   id: "shikanoin-heizou",
   name: "Shikanoin Heizou",
   vision: "Anemo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Inazuma",
   rarity: 4,
   description: "Détective brillant de la Commission Tenryou."
@@ -83,7 +83,7 @@ const extraCharacters = [
   id: "collei",
   name: "Collei",
   vision: "Dendro",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Sumeru",
   rarity: 4,
   description: "Garde forestière apprentie d'Avidya."
@@ -92,7 +92,7 @@ const extraCharacters = [
   id: "tighnari",
   name: "Tighnari",
   vision: "Dendro",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Sumeru",
   rarity: 5,
   description: "Le garde forestier en chef de la forêt d'Avidya."
@@ -137,7 +137,7 @@ const extraCharacters = [
   id: "nahida",
   name: "Nahida",
   vision: "Dendro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Sumeru",
   rarity: 5,
   description: "L'Archonte Dendro de Sumeru, aussi appelée Petite Seigneur Kusanali."
@@ -155,7 +155,7 @@ const extraCharacters = [
   id: "faruzan",
   name: "Faruzan",
   vision: "Anemo",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Sumeru",
   rarity: 4,
   description: "Une érudite spécialiste des mécanismes antiques."
@@ -164,7 +164,7 @@ const extraCharacters = [
   id: "wanderer",
   name: "Wanderer",
   vision: "Anemo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Sumeru",
   rarity: 5,
   description: "Anciennement connu sous le nom de Scaramouche."
@@ -236,7 +236,7 @@ const extraCharacters = [
   id: "lyney",
   name: "Lyney",
   vision: "Pyro",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Fontaine",
   rarity: 5,
   description: "Prestidigitateur célèbre de Fontaine et frère de Lynette."
@@ -254,7 +254,7 @@ const extraCharacters = [
   id: "neuvillette",
   name: "Neuvillette",
   vision: "Hydro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Fontaine",
   rarity: 5,
   description: "Juge suprême de Fontaine à l'autorité incontestée."
@@ -263,7 +263,7 @@ const extraCharacters = [
   id: "wriothesley",
   name: "Wriothesley",
   vision: "Cryo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Fontaine",
   rarity: 5,
   description: "Administrateur de la Forteresse de Méropide."
@@ -281,7 +281,7 @@ const extraCharacters = [
   id: "charlotte",
   name: "Charlotte",
   vision: "Cryo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Fontaine",
   rarity: 4,
   description: "Journaliste énergique du journal Le Steambird."
@@ -317,7 +317,7 @@ const extraCharacters = [
   id: "xianyun",
   name: "Xianyun",
   vision: "Anemo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Liyue",
   rarity: 5,
   description: "L'Adepte connue autrefois sous le nom de Retenue des Nuages."
@@ -344,7 +344,7 @@ const extraCharacters = [
   id: "sethos",
   name: "Sethos",
   vision: "Electro",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Sumeru",
   rarity: 4,
   description: "Jeune homme énigmatique lié aux traditions du désert."
@@ -353,7 +353,7 @@ const extraCharacters = [
   id: "sigewinne",
   name: "Sigewinne",
   vision: "Hydro",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Fontaine",
   rarity: 5,
   description: "Infirmière en chef de la Forteresse de Méropide."
@@ -398,7 +398,7 @@ const extraCharacters = [
   id: "mualani",
   name: "Mualani",
   vision: "Hydro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Natlan",
   rarity: 5,
   description: "Guide touristique pleine d'énergie et grande amatrice des vagues."
@@ -416,7 +416,7 @@ const extraCharacters = [
   id: "chasca",
   name: "Chasca",
   vision: "Anemo",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Natlan",
   rarity: 5,
   description: "Une tireuse d'élite indépendante parcourant les terres de Natlan."
@@ -425,7 +425,7 @@ const extraCharacters = [
   id: "ororon",
   name: "Ororon",
   vision: "Electro",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Natlan",
   rarity: 4,
   description: "Un jeune combattant discret dont le potentiel reste encore méconnu."
@@ -434,7 +434,7 @@ const extraCharacters = [
   id: "citlali",
   name: "Citlali",
   vision: "Cryo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Natlan",
   rarity: 5,
   description: "Une prêtresse respectée dotée d'une grande sagesse."
@@ -452,7 +452,7 @@ const extraCharacters = [
   id: "lan-yan",
   name: "Lan Yan",
   vision: "Anemo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Liyue",
   rarity: 4,
   description: "Une jeune adepte des arts mystiques de Liyue."
@@ -470,7 +470,7 @@ const extraCharacters = [
   id: "ifa",
   name: "Ifa",
   vision: "Anemo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Natlan", 
   rarity: 4,
   description: "Un personnage originaire de Natlan dont les talents intriguent déjà Teyvat."
@@ -488,7 +488,7 @@ const extraCharacters = [
   id: "yumemizuki-mizuki",
   name: "Yumemizuki Mizuki",
   vision: "Anemo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Inazuma", 
   rarity: 5,
   description: "Une mystérieuse jeune fille d'Inazuma liée aux rêves." 
@@ -497,7 +497,7 @@ const extraCharacters = [
   id: "varesa",
   name: "Varesa",
   vision: "Electro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Natlan",
   rarity: 5,
   description: "Une combattante de Natlan débordante d'énergie électrique." 
@@ -515,7 +515,7 @@ const extraCharacters = [
   id: "ineffa",
   name: "Ineffa",
   vision: "Geo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Nod-Krai",
   rarity: 5,
   description: "Une personnage mystérieuse de Nod-Krai." 
@@ -533,7 +533,7 @@ const extraCharacters = [
   id: "lauma",
   name: "Lauma",
   vision: "Hydro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Nod-Krai",
   rarity: 4,
   description: "Une mystérieuse personnage de Nod-Krai." 
@@ -542,7 +542,7 @@ const extraCharacters = [
   id: "flins",
   name: "Flins",
   vision: "Cryo",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Nod-Krai",
   rarity: 4,
   description: "Un archer de Nod-Krai aux flèches glacées." 
@@ -551,7 +551,7 @@ const extraCharacters = [
   id: "nefer",
   name: "Nefer",
   vision: "Pyro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Sumeru",
   rarity: 4,
   description: "Un personnage de Sumeru aux pouvoirs enflammés." 
@@ -569,7 +569,7 @@ const extraCharacters = [
   id: "columbina",
   name: "Columbina",
   vision: "Cryo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Snezhnaya",
   rarity: 5,
   description: "La troisième Fatui Harbinger, aussi appelée Damoiselle." 
@@ -605,7 +605,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "linnea",
   name: "Linnea",
   vision: "Dendro",
-  weapon: "Bow",
+  weapon: "Arc",
   nation: "Nod-Krai",
   rarity: 4,
   description: "Une archère de Nod-Krai en harmonie avec la nature."
@@ -614,7 +614,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "nicole",
   name: "Nicole",
   vision: "Anemo",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Mondstadt",
   rarity: 4, 
   description:"Une jeune habitante de Mondstadt aux dons pour le vent."
@@ -623,7 +623,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "alice",
   name: "Alice",
   vision: "Pyro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Mondstadt",
   rarity: 5,
   description: "L'auteure du Guide de voyage en Teyvat, mère de Klee et aventurière légendaire." 
@@ -632,7 +632,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "sandrone",
   name: "Sandrone",
   vision: "Dendro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Snezhnaya",
   rarity: 5,
   description: "La Marionnettiste, septième Fatui Harbinger, génie de la mécanique." 
@@ -641,7 +641,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "jahoda",
   name: "Jahoda",
   vision: "Hydro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Natlan",
   rarity: 4,
   description: "Un personnage de Natlan aux pouvoirs aquatiques." 
@@ -650,7 +650,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "yae-miko",
   name: "Yae Miko",
   vision: "Electro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Inazuma",
   rarity: 5,
   description: "La grande prêtresse du Grand Sanctuaire Narukami, renarde divine et éditrice." 
@@ -677,7 +677,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "baizhu",
   name: "Baizhu",
   vision: "Dendro",
-  weapon: "Catalyst",
+  weapon: "Catalyseur",
   nation: "Liyue",
   rarity: 5,
   description: "Le propriétaire de la pharmacie Bubu à Liyue, médecin mystérieux toujours accompagné de Changsheng." 
