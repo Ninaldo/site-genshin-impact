@@ -488,7 +488,11 @@ const extraCharacters = [
 
 function listeHTML(listeId, data) {
   const liste = document.getElementById(listeId);
-
+["Natlan", "Sumeru"].forEach(name => {
+  const li = document.createElement("li");
+  li.textContent = name;
+  document.getElementById("nations").appendChild(li);
+});
   data.forEach((item) => {
     const itemElement = document.createElement("li");
     itemElement.textContent = item.name;
