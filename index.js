@@ -484,6 +484,195 @@ const extraCharacters = [
   rarity: 5,
   description: "La mystérieuse maîtresse de Tartaglia, disciple de Surtalogi venue des profondeurs de l'Abîme."
 },
+{ 
+  id: "yumemizuki-mizuki",
+  name: "Yumemizuki Mizuki",
+  vision: "Anemo",
+  weapon: "Catalyst",
+  nation: "Inazuma", 
+  rarity: 5,
+  description: "Une mystérieuse jeune fille d'Inazuma liée aux rêves." 
+},
+{ 
+  id: "varesa",
+  name: "Varesa",
+  vision: "Electro",
+  weapon: "Catalyst",
+  nation: "Natlan",
+  rarity: 5,
+  description: "Une combattante de Natlan débordante d'énergie électrique." 
+},
+{
+  id: "iansan",
+  name: "Iansan",
+  vision: "Electro",
+  weapon: "Polearm",
+  nation: "Natlan",
+  rarity: 5,
+  description: "Une guerrière de Natlan à l'énergie foudroyante." 
+},
+{
+  id: "ineffa",
+  name: "Ineffa",
+  vision: "Geo",
+  weapon: "Catalyst",
+  nation: "Nod-Krai",
+  rarity: 5,
+  description: "Une personnage mystérieuse de Nod-Krai." 
+},
+{ 
+  id: "aino",
+  name: "Aino",
+  vision: "Cryo",
+  weapon: "Sword",
+  nation: "Nod-Krai",
+  rarity: 4,
+  description: "Une habitante de Nod-Krai aux pouvoirs glacials." 
+},
+{ 
+  id: "lauma",
+  name: "Lauma",
+  vision: "Hydro",
+  weapon: "Catalyst",
+  nation: "Nod-Krai",
+  rarity: 4,
+  description: "Une mystérieuse personnage de Nod-Krai." 
+},
+{ 
+  id: "flins",
+  name: "Flins",
+  vision: "Cryo",
+  weapon: "Bow",
+  nation: "Nod-Krai",
+  rarity: 4,
+  description: "Un archer de Nod-Krai aux flèches glacées." 
+},
+{
+  id: "nefer",
+  name: "Nefer",
+  vision: "Pyro",
+  weapon: "Catalyst",
+  nation: "Sumeru",
+  rarity: 4,
+  description: "Un personnage de Sumeru aux pouvoirs enflammés." 
+},
+{
+  id: "durin",
+  name: "Durin",
+  vision: "Cryo",
+  weapon: "Claymore",
+  nation: "Mondstadt",
+  rarity: 5,
+  description: "Un dragon synthétique créé par Alice, jadis ennemi de Mondstadt." 
+},
+{
+  id: "columbina",
+  name: "Columbina",
+  vision: "Cryo",
+  weapon: "Catalyst",
+  nation: "Snezhnaya",
+  rarity: 5,
+  description: "La troisième Fatui Harbinger, aussi appelée Damoiselle." 
+},
+{ 
+id: "illuga",
+name: "Illuga",
+vision: "Cryo",
+weapon: "Claymore",
+nation: "Nod-Krai",
+rarity: 5,
+description: "Un puissant guerrier de Nod-Krai." 
+},
+{
+  id: "zibai",
+  name: "Zibai",
+  vision: "Anemo",
+  weapon: "Sword",
+  nation: "Liyue",
+  rarity: 5,
+  description: "Un maître épéiste de Liyue au style insaisissable." 
+},
+{ 
+  id: "varka",
+  name: "Varka",
+  vision: "Pyro",
+  weapon: "Claymore",
+  nation: "Mondstadt",
+  rarity: 5,
+  description: "Le Grand Maître des Chevaliers de Favonius, parti en expédition."
+},
+{ 
+  id: "linnea",
+  name: "Linnea",
+  vision: "Dendro",
+  weapon: "Bow",
+  nation: "Nod-Krai",
+  rarity: 4,
+  description: "Une archère de Nod-Krai en harmonie avec la nature."
+},
+{
+  id: "nicole",
+  name: "Nicole",
+  vision: "Anemo",
+  weapon: "Catalyst",
+  nation: "Mondstadt",
+  rarity: 4, 
+  description:"Une jeune habitante de Mondstadt aux dons pour le vent."
+},
+{ 
+  id: "alice",
+  name: "Alice",
+  vision: "Pyro",
+  weapon: "Catalyst",
+  nation: "Mondstadt",
+  rarity: 5,
+  description: "L'auteure du Guide de voyage en Teyvat, mère de Klee et aventurière légendaire." 
+},
+{
+  id: "sandrone",
+  name: "Sandrone",
+  vision: "Dendro",
+  weapon: "Catalyst",
+  nation: "Snezhnaya",
+  rarity: 5,
+  description: "La Marionnettiste, septième Fatui Harbinger, génie de la mécanique." 
+},
+{ 
+  id: "jahoda",
+  name: "Jahoda",
+  vision: "Hydro",
+  weapon: "Catalyst",
+  nation: "Natlan",
+  rarity: 4,
+  description: "Un personnage de Natlan aux pouvoirs aquatiques." 
+},
+{ 
+  id: "yae-miko",
+  name: "Yae Miko",
+  vision: "Electro",
+  weapon: "Catalyst",
+  nation: "Inazuma",
+  rarity: 5,
+  description: "La grande prêtresse du Grand Sanctuaire Narukami, renarde divine et éditrice." 
+},
+{ 
+  id: "prune",
+  name: "Prune",
+  vision: "Pyro",
+  weapon: "Sword",
+  nation: "Fontaine",
+  rarity: 4,
+  description: "Une personnage de Fontaine au caractère pétillant." 
+},
+{ 
+  id: "lohen",
+  name: "Lohen",
+  vision: "Hydro",
+  weapon: "Claymore",
+  nation: "Nod-Krai",
+  rarity: 5,
+  description: "Un puissant guerrier de Nod-Krai lié aux eaux profondes." 
+},
 ]
 
 function listeHTML(listeId, data) {
