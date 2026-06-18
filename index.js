@@ -673,11 +673,20 @@ description: "Un puissant guerrier de Nod-Krai."
   rarity: 5,
   description: "Un puissant guerrier de Nod-Krai lié aux eaux profondes." 
 },
+{ 
+  id: "baizhu",
+  name: "Baizhu",
+  vision: "Dendro",
+  weapon: "Catalyst",
+  nation: "Liyue",
+  rarity: 5,
+  description: "Le propriétaire de la pharmacie Bubu à Liyue, médecin mystérieux toujours accompagné de Changsheng." 
+},
 ]
 
 function listeHTML(listeId, data) {
   const liste = document.getElementById(listeId);
-["Natlan", "Sumeru"].forEach(name => {
+["Nod-Krai","Natlan", "Sumeru"].forEach(name => {
   const li = document.createElement("li");
   li.textContent = name;
   document.getElementById("nations").appendChild(li);
