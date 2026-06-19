@@ -47,7 +47,7 @@ const extraCharacters = [
   id: "kamisato-ayato",
   name: "Kamisato Ayato",
   vision: "Hydro",
-  weapon: "",
+  weapon: "Épée",
   nation: "Inazuma",
   rarity: 5,
   description: "Chef du clan Kamisato et commissaire de la Commission culturelle d'Inazuma."
@@ -65,7 +65,7 @@ const extraCharacters = [
   id: "kuki-shinobu",
   name: "Kuki Shinobu",
   vision: "Electro",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Inazuma",
   rarity: 4,
   description: "L'adjointe compétente du gang d'Arataki."
@@ -101,7 +101,7 @@ const extraCharacters = [
   id: "dori",
   name: "Dori",
   vision: "Electro",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Sumeru",
   rarity: 4,
   description: "Une marchande célèbre capable d'obtenir presque tout."
@@ -110,7 +110,7 @@ const extraCharacters = [
   id: "candace",
   name: "Candace",
   vision: "Hydro",
-  weapon: "Polearm",
+  weapon: "Lance",
   nation: "Sumeru",
   rarity: 4,
   description: "La gardienne du village d'Aaru."
@@ -119,7 +119,7 @@ const extraCharacters = [
   id: "cyno",
   name: "Cyno",
   vision: "Electro",
-  weapon: "Polearm",
+  weapon: "Lance",
   nation: "Sumeru",
   rarity: 5,
   description: "Le grand général des Mahamatras."
@@ -128,7 +128,7 @@ const extraCharacters = [
   id: "nilou",
   name: "Nilou",
   vision: "Hydro",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Sumeru",
   rarity: 5,
   description: "Une danseuse renommée du Grand Bazar."
@@ -146,7 +146,7 @@ const extraCharacters = [
   id: "layla",
   name: "Layla",
   vision: "Cryo",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Sumeru",
   rarity: 4,
   description: "Étudiante de l'Académie souffrant d'un manque chronique de sommeil."
@@ -173,7 +173,7 @@ const extraCharacters = [
   id: "alhaitham",
   name: "Alhaitham",
   vision: "Dendro",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Sumeru",
   rarity: 5,
   description: "Le scribe de l'Académie de Sumeru."
@@ -182,7 +182,7 @@ const extraCharacters = [
   id: "yaoyao",
   name: "Yaoyao",
   vision: "Dendro",
-  weapon: "Polearm",
+  weapon: "Lance",
   nation: "Liyue",
   rarity: 4,
   description: "La jeune disciple de Madame Ping."
@@ -191,7 +191,7 @@ const extraCharacters = [
   id: "dehya",
   name: "Dehya",
   vision: "Pyro",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Sumeru",
   rarity: 5,
   description: "Mercenaire des Érémites surnommée la Crinière flamboyante."
@@ -200,7 +200,7 @@ const extraCharacters = [
   id: "mika",
   name: "Mika",
   vision: "Cryo",
-  weapon: "Polearm",
+  weapon: "Lance",
   nation: "Mondstadt",
   rarity: 4,
   description: "Cartographe des Chevaliers de Favonius et membre de l'équipe d'Eula."
@@ -209,7 +209,7 @@ const extraCharacters = [
   id: "kaveh",
   name: "Kaveh",
   vision: "Dendro",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Sumeru",
   rarity: 4,
   description: "Architecte de renom et ancien camarade d'Alhaitham."
@@ -218,7 +218,7 @@ const extraCharacters = [
   id: "kirara",
   name: "Kirara",
   vision: "Dendro",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Inazuma",
   rarity: 4,
   description: "Employée de Komaniya Express possédant une véritable passion pour les livraisons."
@@ -227,7 +227,7 @@ const extraCharacters = [
   id: "lynette",
   name: "Lynette",
   vision: "Anemo",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Fontaine",
   rarity: 4,
   description: "Assistante silencieuse et sœur jumelle de Lyney."
@@ -245,7 +245,7 @@ const extraCharacters = [
   id: "freminet",
   name: "Freminet",
   vision: "Cryo",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Fontaine",
   rarity: 4,
   description: "Plongeur talentueux préférant la compagnie des profondeurs."
@@ -272,7 +272,7 @@ const extraCharacters = [
   id: "furina",
   name: "Furina",
   vision: "Hydro",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Fontaine",
   rarity: 5,
   description: "Ancienne Archonte Hydro de Fontaine, connue pour sa personnalité théâtrale."
@@ -290,16 +290,16 @@ const extraCharacters = [
   id: "chevreuse",
   name: "Chevreuse",
   vision: "Pyro",
-  weapon: "Polearm",
+  weapon: "Lance",
   nation: "Fontaine",
   rarity: 4,
-  description: "Capitaine de l'Unité spéciale de sécurité et de surveillance."
+  description: "Capitaine de l'Unité spéciale de sécurité et de surveilLance."
 },
 {
   id: "navia",
   name: "Navia",
   vision: "Geo",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Fontaine",
   rarity: 5,
   description: "Présidente de la Spina di Rosula."
@@ -308,7 +308,7 @@ const extraCharacters = [
   id: "gaming",
   name: "Gaming",
   vision: "Pyro",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Liyue",
   rarity: 4,
   description: "Garde de transport passionné par la danse du Wushou."
@@ -326,7 +326,7 @@ const extraCharacters = [
   id: "chiori",
   name: "Chiori",
   vision: "Geo",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Inazuma",
   rarity: 5,
   description: "Créatrice de mode renommée installée à Fontaine."
@@ -335,7 +335,7 @@ const extraCharacters = [
   id: "arlecchino",
   name: "Arlecchino",
   vision: "Pyro",
-  weapon: "Polearm",
+  weapon: "Lance",
   nation: "Snezhnaya",
   rarity: 5,
   description: "La Quatrième des Exécuteurs des Fatui, surnommée « Le Knave »."
@@ -362,7 +362,7 @@ const extraCharacters = [
   id: "clorinde",
   name: "Clorinde",
   vision: "Electro",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Fontaine",
   rarity: 5,
   description: "Duelliste championne de Fontaine."
@@ -371,7 +371,7 @@ const extraCharacters = [
   id: "emilie",
   name: "Emilie",
   vision: "Dendro",
-  weapon: "Polearm",
+  weapon: "Lance",
   nation: "Fontaine",
   rarity: 5,
   description: "Parfumeuse réputée dont le talent dépasse largement le domaine des fragrances."
@@ -380,7 +380,7 @@ const extraCharacters = [
   id: "kachina",
   name: "Kachina",
   vision: "Geo",
-  weapon: "Polearm",
+  weapon: "Lance",
   nation: "Natlan",
   rarity: 4,
   description: "Une jeune guerrière enthousiaste originaire de Natlan."
@@ -389,7 +389,7 @@ const extraCharacters = [
   id: "kinich",
   name: "Kinich",
   vision: "Dendro",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Natlan",
   rarity: 5,
   description: "Un chasseur expérimenté accompagné du dragon Ajaw."
@@ -407,7 +407,7 @@ const extraCharacters = [
   id: "xilonen",
   name: "Xilonen",
   vision: "Geo",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Natlan",
   rarity: 5,
   description: "Une artisane talentueuse réputée pour son savoir-faire exceptionnel."
@@ -443,7 +443,7 @@ const extraCharacters = [
   id: "mavuika",
   name: "Mavuika",
   vision: "Pyro",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Natlan",
   rarity: 5,
   description: "L'Archonte Pyro de Natlan, symbole de courage et de détermination."
@@ -461,7 +461,7 @@ const extraCharacters = [
   id: "escoffier",
   name: "Escoffier",
   vision: "Cryo",
-  weapon: "Polearm",
+  weapon: "Lance",
   nation: "Fontaine",
   rarity: 5,
   description: "Une cheffe renommée de Fontaine, célèbre pour son raffinement culinaire."
@@ -479,7 +479,7 @@ const extraCharacters = [
   id: "skirk",
   name: "Skirk",
   vision: "Cryo",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Abyss",
   rarity: 5,
   description: "La mystérieuse maîtresse de Tartaglia, disciple de Surtalogi venue des profondeurs de l'Abîme."
@@ -506,7 +506,7 @@ const extraCharacters = [
   id: "iansan",
   name: "Iansan",
   vision: "Electro",
-  weapon: "Polearm",
+  weapon: "Lance",
   nation: "Natlan",
   rarity: 5,
   description: "Une guerrière de Natlan à l'énergie foudroyante." 
@@ -524,7 +524,7 @@ const extraCharacters = [
   id: "aino",
   name: "Aino",
   vision: "Cryo",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Nod-Krai",
   rarity: 4,
   description: "Une habitante de Nod-Krai aux pouvoirs glacials." 
@@ -560,7 +560,7 @@ const extraCharacters = [
   id: "durin",
   name: "Durin",
   vision: "Cryo",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Mondstadt",
   rarity: 5,
   description: "Un dragon synthétique créé par Alice, jadis ennemi de Mondstadt." 
@@ -578,7 +578,7 @@ const extraCharacters = [
 id: "illuga",
 name: "Illuga",
 vision: "Cryo",
-weapon: "Claymore",
+weapon: "Épée à deux mains",
 nation: "Nod-Krai",
 rarity: 5,
 description: "Un puissant guerrier de Nod-Krai." 
@@ -587,7 +587,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "zibai",
   name: "Zibai",
   vision: "Anemo",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Liyue",
   rarity: 5,
   description: "Un maître épéiste de Liyue au style insaisissable." 
@@ -596,7 +596,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "varka",
   name: "Varka",
   vision: "Pyro",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Mondstadt",
   rarity: 5,
   description: "Le Grand Maître des Chevaliers de Favonius, parti en expédition."
@@ -659,7 +659,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "prune",
   name: "Prune",
   vision: "Pyro",
-  weapon: "Sword",
+  weapon: "Épée",
   nation: "Fontaine",
   rarity: 4,
   description: "Une personnage de Fontaine au caractère pétillant." 
@@ -668,7 +668,7 @@ description: "Un puissant guerrier de Nod-Krai."
   id: "lohen",
   name: "Lohen",
   vision: "Hydro",
-  weapon: "Claymore",
+  weapon: "Épée à deux mains",
   nation: "Nod-Krai",
   rarity: 5,
   description: "Un puissant guerrier de Nod-Krai lié aux eaux profondes." 
