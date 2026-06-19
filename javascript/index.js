@@ -713,6 +713,18 @@ function populateCharacters(characters) {
     });
 }
 
+const localOnly = new Set(["lan-yan", "mavuika", "oron", "skirk", "xilonen"]);
+
+function getSplashUrl(slug) {
+  if (localOnly.has(slug)) return `./images/characters/${slug}-splash.jpg`;
+  return `https://genshin.jmp.blue/characters/${slug}/gacha-splash`;
+}
+
+function getCardUrl(slug) {
+  if (localOnly.has(slug)) return `./images/characters/${slug}-card.jpg`;
+  return `https://genshin.jmp.blue/characters/${slug}/card`;
+}
+
 async function onCharacterChange(event) {
   const slug = event.target.value;
 
@@ -729,14 +741,14 @@ async function onCharacterChange(event) {
   document.getElementById("characterDetails").innerHTML = `
    <div class="character-image">
       <img
-        src="./images/characters/${fileSlug}-splash.jpg"
+        src="${getSplashUrl(slug)}"
         alt="${character.name}"
-        onerror="this.onerror=null; this.src='./images/characters/${fileSlug}-card.jpg';"
+        onerror="this.onerror=null; this.src='${getCardUrl(slug)}';"
       >
       <img
-        src="./images/characters/${fileSlug}-card.jpg"
+        src="${getCardUrl(slug)}"
         alt="${character.name}"
-        onerror="this.onerror=null; this.src='./images/characters/${fileSlug}-splash.jpg';"
+        onerror="this.onerror=null; this.src='${getSplashUrl(slug)}';"
       >
     </div>
     <div class="character-info">
